@@ -28,6 +28,8 @@ public class BaseTest {
 	public LandingPage landingPage;
 
 	public WebDriver initializeDriver() throws IOException {
+		
+		//Newcode added
 
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")

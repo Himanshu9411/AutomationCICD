@@ -2,7 +2,7 @@ package rahulshettyacademy.TestComponents;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
-
+//Retry Class new code
 public class Retry implements IRetryAnalyzer {
 	int count = 0;
 	int maxTry =1;
